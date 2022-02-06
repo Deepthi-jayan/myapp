@@ -10,7 +10,7 @@ class ClassesController extends Controller
     //
 
 
-    function Index()
+   public function index()
     {
     	return Classes::all();
     }
